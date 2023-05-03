@@ -3,3 +3,4 @@
 
 **Socket Programming Assignments**
 * [01. WebServer](./Socket_Programming_Assignments/01.WebServer/)
+* [02. UDPPinger](./Socket_Programming_Assignments/02.UDPPinger/)
