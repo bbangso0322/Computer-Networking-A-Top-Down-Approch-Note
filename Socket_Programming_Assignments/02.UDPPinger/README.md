@@ -2,7 +2,6 @@
 **과제내용**
 간단한 인터넷 ping 서버에 대해 공부하고 UDP를 사용하여 이에 대응하는 클라이언트를 프로그래밍 한다. 서버 코드는 다음과 같이 완성된 상태로 주어진다. 이에 대응하는 클라이언트를 작성하라.
 
-
 ## Server Code
 ```python
 # UDPPingerServer.py
@@ -45,3 +44,18 @@ ping으로 보내는 message의 포맷은 다음과 같다.
 
 * ***sequence_number***는 1 부터 10까지 각 message의 연속적인 숫자이다.
 * ***time***는 클라이언트가 message를 보낸 시간이다.
+
+
+### 나의 결과
+```bash
+Request timed out
+PING 2 2023-05-03 22:41:53.868917 RTT: 155ms
+PING 3 2023-05-03 22:41:53.873435 RTT: 167ms
+Request timed out
+PING 5 2023-05-03 22:41:54.874705 RTT: 140ms
+PING 6 2023-05-03 22:41:54.874901 RTT: 95ms
+Request timed out
+PING 8 2023-05-03 22:41:55.876219 RTT: 496ms
+Request timed out
+PING 10 2023-05-03 22:41:56.878262 RTT: 485ms
+```
